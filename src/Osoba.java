@@ -1,4 +1,6 @@
-public class Osoba {
+public abstract class Osoba {
+
+    //abstract z klasy tej nie mozna tworzyc obiektow
     public String imie;
     private int wiek; //hermetyzacja (enkapsulacja) - ograniczony dostep do pol metod
     //private tylko w tej klasie
