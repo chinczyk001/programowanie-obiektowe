@@ -23,6 +23,13 @@ public class Main {
         Nauczyciel nauczycielWf = new Nauczyciel("Krzysztof",45,"wf");
         System.out.println(nauczycielWf);
         nauczycielWf.wykonajDyzur();
-        uczen1.wykonajDyzur();
+        uczen1.wykonajDyzur();//polimorfizm
+
+        Klasa klasa = new Klasa("3p");
+        System.out.println(klasa);
+        klasa.dodajUczniaDoKlasy(uczen);
+        System.out.println(klasa);
+        klasa.dodajUczniaDoKlasy(uczen1);
+        klasa.dodajUczniaDoKlasy(uczen);
     }
 }
